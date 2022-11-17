@@ -7,54 +7,78 @@
     <title> Reservas </title>
 </head>
 <body>
+    <header class="cabecera">
+        <div style="background-color:grey; width: 1350px; height: 180px" >
+            <img src="Recursos/banner1.png" alt="banner1" width="1350px" height="180px" > 
+        </div>
+    </header>  
+    <div>
+        <nav> 
+            <br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="index.html" class=""> Inicio </a> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="sobrenosotros.html" class=""> Sobre nosotros </a> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="visitar.html" class=""> Cosas para visitar </a> 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="reservas.html" class=""> Reservas </a>
+        </nav>
+    </div> 
     <h1>
-        Aqui va a ir el formulario
+        Este es el formulario de reserva
     </h1>
     <fieldset>
-        <legend> Opciones opcionales </legend>
-            Elige su color preferido: <input type="color">
+        <legend>Datos de la reserva: </legend>
+            Elige el color que le gustaria para la habitacion: <input type="color">
+        <br>
+        <p> Introduzca su genero: </p>
+            <input type="radio" value="hombre"> Hombre  
+        <br>
+            <input type="radio" value="mujer"> Mujer
+        <br>
+            <input type="radio" value="secreto"> Prefiero no decirlo  
         <br>
         <br>
-            <input type="radio" value="intel"> Hombre  
+            Por favor elija la hora y la fecha de llegada 
+        <br>    
+            <input type="time">
         <br>
-            <input type="radio" value="amd"> Mujer
-        <br>
-        <br>
-            Elija una hora de inicio <input type="time">
-        <br>
-        <br>
-            Elija un fichero: <input type="file">
+             <input type="date">
         <br>
         <br>
-        ¿Qué circuito le ha gustado más?
+            Proporcionanos por favor su documento Nacional de indentidad:<input type="file">
+        <br>
+        <br>
+        Elija el tipo de habitacion desada:
         <br>
             <select multiple="multiple">
-            <option> Silverstone </option>
-            <option> Mónaco </option>
-            <option> Jerez </option>
+                <option> Habitacion doble uso individual </option>
+                <option> Habitacion doble estandar  </option>
+                <option> Habitacion doble acceso piscina </option>
+                <option> Habitacion doble acceso piscina </option>
+                <option> Habitacion doble con balcon </option>
+                <option> Habitacion triple </option>
+                <option> Habitacion cuádruple </option>
+                <option> Junior Suite  </option>
+                <option> Suite con Jacuzzi </option>
             </select>
         <br>
         <br>
-        <input type="radio" value="Moto GP"> Moto GP <input type="radio" value="Moto 2"> Moto 2 <input type="radio" value="Moto 3"> Moto 3    
-        <br>
-        <br>
-        ¿Que asignatura le gusta más?
+        Elija la actividad que le gustaria realizar en nuestro hotel
             <select> 
-              <option> Ciencias </option>
-               <option> Lengua </option>
-               <option> Matematicas </option>
+               <option> Natación </option>
+               <option> Bingo </option>
+               <option> Golf </option>
+               <option> Visita cultural por la ciudad </option>
             </select>
         <br>
         <br>
-            Exprese en este cuadro como se siente
+            Exprese en este cuadro su experiencia del hotel.
         <br>
              <textarea id="msg" name="user_message"></textarea>
         <br>
+  
         <br>
-            Elija una fecha: <input type="date">
-        <br>
-        <br>
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.5621842666355!2d-4.576580684703889!3d37.02023987990379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72901762c2fd2f%3A0x311f0b31cf8ce6d3!2sHotel%20Antequera%20Hills!5e0!3m2!1ses!2ses!4v1668682694998!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </fieldset>
+    
 </body>
 </html>
