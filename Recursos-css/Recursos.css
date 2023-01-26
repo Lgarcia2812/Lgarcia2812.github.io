@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*IMPORTACIÓN DE FUENTE PERSONALIZADA*/
+@font-face  {font-family: 'Eleven'; src: url(../fonts/ElevenFit-Regular.ttf);}
+@font-face  {font-family: 'ElevenItalic'; src: url(../fonts/ElevenFit-Italic.ttf);}
+@font-face  {font-family: 'ElevenOutline'; src: url(../fonts/ElevenFit-Outline.ttf);}
+@font-face  {font-family: 'ElevenItOutline'; src: url(../fonts/ElevenFit-ItalicOutline.ttf);}
+/*!! CABECERA !!*/
+
+/*【 Menú 】*/
+nav {
+	overflow: hidden;/*#096ac1*/
+	background: #000;
+	background-image: url("https://arielguerrero.ml/img/fondo_menu2.jpg");
+	padding: .8em; 
+	padding-left: 12em;
+	padding-right: 12em;
+	border-bottom: 5px solid #F80303;
+}
+#header nav {
+	background: none;
+	border: none;
+}
+
+#logo {
+	float: left;
+}
+#logo:hover {
+	transform: scale(1.01);
+}
+
+#menu {
+	float: right;
+	margin-top: 2.5em;
+}
+
+#logo img {
+	width: 170px;
+	display: block;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.1em;
+}
+#menu ul li a span {
+	color: #f72a2a;
+}
+#menu ul li a:hover {
+	color: #f72a2a;
+	font-style: italic;
+	font-weight: 800;
+	transform: scale(1.02);
+}
+#menu ul li a:active {
+	color: #F80303;
+}
+
+#menu {
+	text-align: center;
+}
+#menu ul {
+	list-style-type: none;
+	text-align: center;
+}
+#menu ul li {
+	display: inline;
+	padding: 0.5em;
+}
+/*Cabecera*/
+#header {	
+	background-image: url("../img/fondo_landing.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#cabecera {
+	padding-top: 350px;
+	padding-bottom: 550px;
+	font-family: 'Eleven';
+	letter-spacing: 7px;
+	color: #ffffff;
+	font-size: 150%;
+}
+#cabecera span {
+	font-style: italic;
+}
+
+/*!! MAIN !!*/
+
+/*!! FOOTER !!*/
+footer {
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+	padding: 50px 0px 50px 0px;
+	background: #fff;
+	border-top: 5px solid #F80303;
+}
+footer h2 {
+	font-family: 'Eleven';
+	letter-spacing: 3px;
+}
+/*Columna 1 de Footer*/
+#col1Footer {
+	width: 33.333333333%;
+	float: left;
+	/*Sintaxis padding = top right bottom left*/
+	padding: 0px 30px 0px 100px;
+}
+#col1Footer h2, p {
+	text-align: center;
+}
+#col1Footer p span {
+	font-weight: 600;
+	color: #bb0202;
+}
+/*Columna 2 de Footer*/
+#col2Footer {
+	width: 33.333333333%;
+	float: left;
+	padding: 0px 30px 0px 25px;
+}
+#col2Footer h2, div {
+	text-align: center;
+}
+/*Iconos redes sociales*/
+.margin-right-8x100 {
+	margin-right: 8%;
+}
+
+.rrss:hover {
+	transform: scale(1.1);
+}
+/*Columna 3 de Footer*/
+#col3Footer {
+	width: 33.333333333%;
+	float: left;
+	padding: 0px 100px 0px 30px;
+}
+#col3Footer h2, p {
+	text-align: center;
+}
+#col3Footer p {
+	margin-bottom: 20px;
+}
+#col3Footer ul li{
+	list-style-type: none;
+}
+#col3Footer ul li h5 {
+	font-weight: 800;
+	font-size: 1.05em;
+	margin-bottom: 5px;
+}
+/*Barra divisoria footer*/
+.barra-divisoria-footer {
+	width: 100%;
+	margin: 20px 0px 20px 0px;
+	background: #F80303;
+	border: 2px solid #F80303;
+	border-radius: 50px;
+}
