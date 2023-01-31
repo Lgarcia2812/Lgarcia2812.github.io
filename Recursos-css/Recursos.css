@@ -107,26 +107,26 @@ footer h2 {
 	letter-spacing: 3px;
 }
 /*Columna 1 de Footer*/
-#col1Footer {
+#pie_izquierdo {
 	width: 33.333333333%;
 	float: left;
 	/*Sintaxis padding = top right bottom left*/
 	padding: 0px 30px 0px 100px;
 }
-#col1Footer h2, p {
+#pie_izquierdo h2, p {
 	text-align: center;
 }
-#col1Footer p span {
+#pie_izquierdo p span {
 	font-weight: 600;
 	color: #bb0202;
 }
 /*Columna 2 de Footer*/
-#col2Footer {
+#pie_medio {
 	width: 33.333333333%;
 	float: left;
 	padding: 0px 30px 0px 25px;
 }
-#col2Footer h2, div {
+#pie_medio h2, div {
 	text-align: center;
 }
 /*Iconos redes sociales*/
@@ -138,7 +138,7 @@ footer h2 {
 	transform: scale(1.1);
 }
 /*Columna 3 de Footer*/
-#col3Footer {
+#pie_derecho {
 	width: 33.333333333%;
 	float: left;
 	padding: 0px 100px 0px 30px;
