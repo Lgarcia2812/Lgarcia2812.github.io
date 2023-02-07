@@ -3,13 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/*IMPORTACIÓN DE FUENTE PERSONALIZADA*/
-@font-face  {font-family: 'Eleven'; src: url(../fonts/ElevenFit-Regular.ttf);}
-@font-face  {font-family: 'ElevenItalic'; src: url(../fonts/ElevenFit-Italic.ttf);}
-@font-face  {font-family: 'ElevenOutline'; src: url(../fonts/ElevenFit-Outline.ttf);}
-@font-face  {font-family: 'ElevenItOutline'; src: url(../fonts/ElevenFit-ItalicOutline.ttf);}
-/*!! CABECERA !!*/
-
 /*【 Menú 】*/
 nav {
 	overflow: hidden;/*#096ac1*/
@@ -25,21 +18,9 @@ nav {
 	border: none;
 }
 
-#logo {
-	float: left;
-}
-#logo:hover {
-	transform: scale(1.01);
-}
-
 #menu {
 	float: right;
 	margin-top: 2.5em;
-}
-
-#logo img {
-	width: 170px;
-	display: block;
 }
 
 #menu ul li a{
@@ -49,9 +30,11 @@ nav {
 	font-weight: 700;
 	font-size: 1.1em;
 }
+
 #menu ul li a span {
 	color: #f72a2a;
 }
+
 #menu ul li a:hover {
 	color: #f72a2a;
 	font-style: italic;
@@ -73,9 +56,10 @@ nav {
 	display: inline;
 	padding: 0.5em;
 }
+
 /*Cabecera*/
 #header {	
-	background-image: url("../img/fondo_landing.jpg");
+	background-image: url("Recursos/foto 1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -100,7 +84,7 @@ footer {
 	overflow: hidden;
 	padding: 50px 0px 50px 0px;
 	background: #fff;
-	border-top: 5px solid #F80303;
+	border-top: 5px solid #18c435;
 }
 footer h2 {
 	font-family: 'Eleven';
@@ -118,7 +102,7 @@ footer h2 {
 }
 #pie_izquierdo p span {
 	font-weight: 600;
-	color: #bb0202;
+	color: #10d65c;
 }
 /*Columna 2 de Footer*/
 #pie_medio {
@@ -161,7 +145,7 @@ footer h2 {
 .barra-divisoria-footer {
 	width: 100%;
 	margin: 20px 0px 20px 0px;
-	background: #F80303;
-	border: 2px solid #F80303;
+	background: #27cf0d;
+	border: 2px solid #27cf0d;
 	border-radius: 50px;
 }
