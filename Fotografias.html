@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title> Fotografías </title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Luis García Díaz">
-    <meta name="description" content ="Proyecto CSS">
+    <meta name="description" content="Proyecto CSS">
     <link href="Recursos-css/Recursos.css" rel="stylesheet">
     <link rel="icon" href="Recursos/logo arriba.png">
-    
+
+
 </head>
+
 <body>
-    
-    <header>
 
-        <img src="Recursos/logo cabecera.png" alt="logo" width="175px" height="75px">
+    <div id="todo">
 
-        <ul>
-            <li><a href="index.html"> Inicio </a></li>
-            <li><a href="Historia.html"> Historia </a></li>
-            <li><a href="Fotografias.html"> Fotografías </a></li>
-            <li><a href="Suscripción.html"> Susbcripción </a></li>
-            <li><a href="Locales.html"> Locales </a></li>
-        </ul>
+        <header id="mover">
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="Recursos/logo cabecera.png" alt=" fotoLogo" width="175px" height="75px"> </a>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html"> Inicio </a></li>
+                        <li><a href="Historia.html"> Historia </a></li>
+                        <li><a href="Fotografias.html"> Fotografías </a></li>
+                        <li><a href="Suscripción.html"> Susbcripción </a></li>
+                        <li><a href="Locales.html"> Locales </a></li>
+                    </ul>
+                </div>
+            </nav>
 
-    </header>
+        </header>
+        <div class="grid-container">
 
-    <footer>
-        <div id="pie_izquierdo">
-            <h2>
-                Sobre nosotros</h2>
-            <div class="barra-divisoria-footer"></div>
-            <p>
-                <span> SANO </span> será la primera cadena en España de centros
-                de entrenamiento personal, con un sistema que integra dieta, nutrición, descanso y entrenamiento.
-                <span> Expertos </span> en el sector. La cadena, en régimen de franquicia, va dirigida a titulados
-                en Ciencias del Deporte y a expertos en entrenamiento personal.
-            </p>
+            <div class="grind-item doble-alto1 doble-ancho1" style=" background-image: url('Recursos/Foto\ 2.jpg');"></div>
+            <div class="grind-item doble-alto1" style="background-image: url('Recursos/Foto\ 3.jpg');"> </div>
+            <div class="grind-item doble-alto1" style="background-image: url('Recursos/Foto\ 4.jpg');"> </div> 
+            <div class="grind-item doble-alto1 doble-ancho1" style=" background-image: url('Recursos/Foto\ 6.jpg');"></div>
+            <div class="grind-item doble-ancho3 doble-alto1" style="background-image: url(Recursos/Foto\ 1.jpg)">  </div>
+            <div class="grind-item doble-ancho3 doble-alto1" style="background-image: url(Recursos/Foto\ 5.jpg)">  </div>
+            
         </div>
-
-        <div id="pie_medio">
-
-            <div>
-                <a href="https://www.facebook.com/people/Sano-Antequera/100071468435585/"> <img
-                        src="Recursos/logo facebook.png" alt="facebook" width="30px" height="30px"> </a>
-                <a href="https://www.instagram.com/sano_antequera/?hl=es"> <img src="Recursos/logo instagram.png"
-                        alt="instagram" width="30px" height="30px"> </a>
-                <a href="https://twitter.com/TorcalBalonmano"> <img src="Recursos/logo twiter.png" alt="twitter"
-                        width="30px" height="30px">
-                </a>
+        <footer>
+            <div id="pie_izquierdo">
+                <h2>
+                    Sobre nosotros</h2>
+                <br>
+                <br>
+                <p>
+                    <span> SANO </span> será la primera cadena en España de centros
+                    de entrenamiento personal, con un sistema que integra dieta, nutrición, descanso y entrenamiento.
+                    <span> Expertos </span> en el sector. La cadena, en régimen de franquicia, va dirigida a titulados
+                    en Ciencias del Deporte y a expertos en entrenamiento personal.
+                </p>
             </div>
-        </div>
 
-        <div id="pie_derecho">
-            <p>
-                Nuestro Horario:
-                Lunes 8:00–14:00, 16:00–22:00
-                Martes 8:00–22:00
-                Miércoles 8:00–14:00, 16:00–22:00
-                Jueves 8:00–22:00
-                Viernes 8:00–14:00, 17:00–21:00
-                Sábado Cerrado
-                Domingo Cerrado
-            </p>
-        </div>
-    </footer>
+            <div id="pie_medio">
+                <h2>Redes sociales</h2>
+                <br>
+                <br>
+                <div>
+                    <a href="https://www.facebook.com/people/Sano-Antequera/100071468435585/"> <img
+                            src="Recursos/logo facebook.png" alt="facebook" width="75px" height="75px"> </a>
+                    <a href="https://www.instagram.com/sano_antequera/?hl=es"> <img src="Recursos/logo instagram.png"
+                            alt="instagram" width="75px" height="75px"> </a>
+                    <a href="https://twitter.com/TorcalBalonmano"> <img src="Recursos/logo twiter.png" alt="twitter"
+                            width="75px" height="75px">
+                    </a>
+                </div>
+            </div>
+
+            <div id="pie_derecho">
+                <h2> Horario</h2>
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        <p> Lunes, Miércoles y Viernes (8:00–14:00 // 16:00–22:00)</p>
+                    </li>
+                    <li>
+                        <p>Martes y Jueves (8:00-22:00)</p>
+                    </li>
+                    <li>
+                        <p> Findes (<span>CERRADO</span>)</p>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
 </body>
+
 </html>
